@@ -40,8 +40,6 @@ def home_page():
         
         username = db.session.query(User.username).filter_by(id=curr_user_id).first()
         username=str(username)
-        print("AHHHHHHHHHHH L000000000000000000k")
-        print("*********************************")
         print(username)
         removeables="('',)"
         for char in removeables:
@@ -120,8 +118,6 @@ def view_fav_recipes():
 
 
     """
-    favoriterecipes = dict(zip(favoriterecipetitles, favoriterecipelinks))
-    print(favoriterecipes)
     """
 
     favoriterecipeinfo ={k: (v1,v2,v3,v4) for k,v1,v2,v3,v4 in zip(favoriterecipeids, favoriterecipelinks, favoriterecipetitles, favoriterecipeimages, favoriterecipetimes) }
