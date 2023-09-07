@@ -7,13 +7,13 @@ from app import app
 db.drop_all()
 db.create_all()
 
-bubba = User(username='Sydney123', password='12345')
-mama = User(username='Teresa123', password='12345')
-syssy = User(username='Syscily123', password='12345')
+user1 = User(username='Sydney123', password='12345')
+user2 = User(username='Teresa123', password='12345')
+user3 = User(username='Syscily123', password='12345')
 
 
 # Add new objects to session, so they'll persist
-db.session.add_all([bubba, mama, syssy])
+db.session.add_all([user1, user2, user3])
 
 
 # Commit--otherwise, this never gets saved!
@@ -28,16 +28,16 @@ db.session.add([recipe1, recipe2, recipe3])
 db.session.commit()
 """
 
-turkeylovers = Recipe(title='turkeywings', link = 'turkeyhut.org',savedrecipes=[FavoriteRecipe(user_id=bubba.id),
-FavoriteRecipe(user_id=mama.id)])
+veggielovers = Recipe(title='tomatoes', link = 'madeupveglink.com',savedrecipes=[FavoriteRecipe(user_id=user1.id),
+FavoriteRecipe(user_id=user2.id)])
 
-chitlinlovers = Recipe(title='chitlins', link = 'highbloodpressure.org',savedrecipes=[FavoriteRecipe(user_id=bubba.id),
-FavoriteRecipe(user_id=syssy.id)])
+turkeylovers = Recipe(title='turkeywinsgs', link = 'madeuplink.com',savedrecipes=[FavoriteRecipe(user_id=user1.id),
+FavoriteRecipe(user_id=user2.id)])
 
-watermelonlovers = Recipe(title='junglemelon', link = 'junglemelon.org',savedrecipes=[FavoriteRecipe(user_id=bubba.id),
-FavoriteRecipe(user_id=syssy.id), FavoriteRecipe(user_id=mama.id)])
+fruitlovers = Recipe(title='fruitrecipes', link = 'madeupfruitlink.org',savedrecipes=[FavoriteRecipe(user_id=user1.id),
+FavoriteRecipe(user_id=user2.id), FavoriteRecipe(user_id=user3.id)])
 
 
 
-db.session.add_all([turkeylovers, chitlinlovers, watermelonlovers])
+db.session.add_all([veggielovers, turkeylovers, fruitlovers])
 db.session.commit()

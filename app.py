@@ -1,3 +1,4 @@
+import os
 from logging.handlers import DatagramHandler
 from flask import Flask, render_template, request, flash, redirect, session, g, abort,jsonify, make_response
 from flask_debugtoolbar import DebugToolbarExtension
@@ -11,6 +12,7 @@ from models import db, connect_db, User, FavoriteRecipe, FoundRecipe
 import json
 
 CURR_USER_KEY = "curr_user"
+
 
 app = Flask(__name__)
 """testing git"""
@@ -29,6 +31,7 @@ db.create_all()
 
 BASE_URL = 'https://api.spoonacular.com/recipes'
 key = API_SECRET_KEY
+
 
     
 

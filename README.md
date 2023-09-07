@@ -32,7 +32,7 @@ source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 pip install -r requirements.txt
 Set Up Environment Variables:
 
-4. Create a .env file in the project root directory and add your secret API key. Replace YOUR_API_SECRET_KEY with your actual API secret key:
+4. Create a .env file in the project root directory and add your secret API key. Replace YOUR_API_SECRET_KEY with your actual API secret key from https://api.spoonacular.com/:
 API_SECRET_KEY=YOUR_API_SECRET_KEY
 
 5. Database Setup: 
