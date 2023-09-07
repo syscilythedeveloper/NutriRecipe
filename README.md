@@ -3,12 +3,10 @@
 
 
 
-NutriRecipe is a user-friendly application designed to cater to culinary enthusiasts, health-conscious individuals, and anyone seeking culinary inspiration. Our app empowers users to discover a world of delicious recipes tailored to their specific preferences. With NutriRecipe, you can effortlessly search for recipes based on desired ingredients, macronutrients, and dietary preferences. What sets us apart is our seamless registration feature, allowing users to create an account, save their favorite recipes, and access them with ease. Whether you're a seasoned chef or a cooking novice, NutriRecipe is your go-to companion for culinary exploration and healthy eating.
+NutriRecipe is a user-friendly application designed to cater to culinary enthusiasts, health-conscious individuals, and anyone seeking culinary inspiration. This app empowers users to discover a world of delicious recipes tailored to their specific preferences. With NutriRecipe, you can effortlessly search for recipes based on desired ingredients, macronutrients, and dietary preferences. The seamless registration feature, allowing users to create an account, save their favorite recipes, and access them with ease. Whether you're a seasoned chef or a cooking novice, NutriRecipe is your go-to companion for culinary exploration and healthy eating.
 
 
 
-
-Brief project description goes here.
 
 ## Table of Contents
 
