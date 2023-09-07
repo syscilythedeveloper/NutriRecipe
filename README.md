@@ -21,7 +21,7 @@ To run this project locally, you'll need Python and a few Python packages. Here'
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/syscilythedeveloper/NutriRecipe.git
    cd your-repo
 
 2. Create a virtual environment(Optional, but recommended)
