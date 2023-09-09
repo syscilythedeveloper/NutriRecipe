@@ -30,6 +30,7 @@ db.create_all()
 
 
 BASE_URL = 'https://api.spoonacular.com/recipes'
+#Enter your own api Key
 key = API_SECRET_KEY
 
 
